@@ -1,0 +1,170 @@
+html,
+body {
+  color: wheat;
+  font-family: "Righteous", cursive;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("/img/bg.jpg");
+  background-size: cover;
+  color: black;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content p {
+  color: yellowgreen;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: wheat;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: wheat;
+  margin-left: 0.6em;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.orders-link {
+  color: black;
+}
+
+.wrapper {
+  max-width: 1140px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+/* order form */
+
+.create-order {
+  text-align: center;
+  padding: 20px;
+  color: wheat;
+}
+
+.create-order label,
+.create-order select {
+  display: block;
+}
+
+.create-order label {
+  margin-top: 30px;
+}
+
+.create-order select {
+  padding: 8px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.create-order input[type=checkbox] {
+  margin: 10px;
+}
+
+.create-order input[type=submit] {
+  background: #5e2195;
+  padding: 8px 20px;
+  color: wheat;
+  border: 0;
+  margin-top: 20px;
+}
+
+/* details page */
+
+.order-details {
+  text-align: center;
+  padding: 20px;
+}
+
+.order-details h1 {
+  color: wheat;
+}
+
+.order-details p {
+  margin: 20px 0;
+  font-weight: bold;
+  color: wheat;
+}
+
+.order-details button {
+  background: #5e2195;
+  padding: 1.1em 1.1em;
+  color: #fff;
+  border: 0;
+  margin-top: 0.2em;
+}
+
+a.back {
+  display: block;
+  text-align: center;
+  margin-top: 8em;
+  color: wheat;
+}
+
+/* pizza index page */
+
+.order-index .order-container {
+  display: flex;
+}
+
+.order-index h1 {
+  margin-bottom: 40px;
+}
+
+.order-index .order-item {
+  margin: 10px 10px;
+  min-width: 5em;
+  padding: 12px;
+  background: #f4f4f4;
+}
+
+.order-index .order-item img {
+  width: 1.5em;
+  display: inline-block;
+}
+
+.order-index .order-item h4 {
+  display: inline-block;
+  font-weight: normal;
+  margin: 1em 1em 0 1em;
+  color: black;
+}
+
